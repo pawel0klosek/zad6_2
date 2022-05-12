@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 200px;
+    height: 150px;
+    margin-top: 50px;
+    border: solid 2px black;
+    border-radius: 15%;
+    background-image: linear-gradient(orange, yellow);
+}
+
+.result {
+    height: 30px;
+    margin-top: 10px;
+    font-size: x-large;
+    text-align: center;
+    text-shadow: gray 1px 1px;
+}
+
+input{
+    width: 192px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.21);
+}
+
+.buttons {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 45px;
+    justify-content: center;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
